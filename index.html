@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <!-- Include FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="countdown">
+        <video id="countdown-video" width="100%" height="auto" autoplay muted>
+            <source src="countdown.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio id="countdown-sound" src="beep.mp3"></audio> <!-- Ensure you have this sound file -->
+    </div>
+    <div id="main-content" style="display:none;">
+        <header>
+            <h4>Muthubalaganesh B</h4>
+        </header>
+        <img src="doodle.png" alt="Doodle" class="doodle-animation"> <!-- Doodle image -->
+        <div class="icon-section">
+            <div class="icon">
+                <i class="fas fa-home"></i>
+                <div class="section-content" id="home">
+                    <h4>Welcome to My Resume</h4>
+                    <p>Home content...</p>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-file"></i>
+                <div class="section-content" id="resume">
+                    <h4>My Resume</h4>
+                    <p>Resume content...</p>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-project-diagram"></i>
+                <div class="section-content" id="projects">
+                    <h4>Projects</h4>
+                    <a href="https://github.com/Muthubalaganesh" target="_blank">Visit My GitHub</a>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-certificate"></i>
+                <div class="section-content" id="certifications">
+                    <h4>Certifications</h4>
+                    <a href="certificates.pdf" download>Download Certifications</a>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-code"></i>
+                <div class="section-content" id="skills">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>Programming Languages</li>
+                        <li>Full Stack</li>
+                        <li>Machine Learning</li>
+                        <li>Data Science</li>
+                        <li>Data Analytics</li>
+                        <li>Business Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-language"></i>
+                <div class="section-content" id="languages">
+                    <h4>Languages</h4>
+                    <p>Languages content...</p>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fas fa-envelope"></i>
+                <div class="section-content" id="contact">
+                    <h4>Contact</h4>
+                    <p>Connect with me on:</p>
+                    <p><a href="https://www.linkedin.com/in/muthubalaganesh-b-129942315/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+                    <p><a href="https://www.instagram.com/ganesh_hathor/?__pwa=1#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+                </div>
+            </div>
+        </div>
+        <footer>
+        </footer>
+    </div>
+    <audio id="click-sound" src="click.mp3"></audio>
+</body>
+</html>
